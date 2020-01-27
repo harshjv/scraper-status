@@ -43,7 +43,7 @@ onMount(start)
 	<div class="container">
 		<div class="row">
 		{#each Object.entries(results) as [network, status]}
-		<div class="col-lg-4 col-md-4 col-12">
+		<div class="col-lg-4 col-md-4 col-12 mb-4">
 			<div class="card">
 			  <div class="card-body">
 			    <h5 class="card-title">
